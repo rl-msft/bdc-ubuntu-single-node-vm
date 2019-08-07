@@ -1,10 +1,13 @@
 Disclaimer this is TEST script, not tested thoroughly  and not meant for production
 
-Instructions
+**Instructions**
 
 1) Create Ununtu Azure VM
 2) after the deployment is completed, stop the VM then increase the OS size to at least 300GB
 3) Start the VM and login with ssh, then issue the following commands
+
+
+
 
 sudo apt-get update && sudo apt-get upgrade 
 sudo apt-get update 
