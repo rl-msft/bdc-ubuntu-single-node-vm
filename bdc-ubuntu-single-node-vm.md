@@ -12,7 +12,7 @@
 sudo apt-get update && sudo apt-get upgrade 
 
 
-curl --output setup-bdc.sh https://raw.githubusercontent.com/microsoft/sql-server-samples/master/samples/features/sql-big-data-cluster/deployment/kubeadm/ubuntu-single-node-vm/setup-bdc.sh
+curl --output setup-bdc.sh https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/setup-bdc.sh
 
 chmod +x setup-bdc.sh
 
@@ -21,4 +21,9 @@ sudo ./setup-bdc.sh
 source ~/.bashrc
 
 azdata --version
+
+
+**for clearn up**
+run this script
+https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/cleanup-bdc.sh
 
