@@ -1,4 +1,4 @@
-Disclaimer this is TEST script, not tested thoroughly  and not meant for production
+<span style="color:red"> Disclaimer this is TEST script, not tested thoroughly  and not meant for production</span>
 
 **Instructions**
 
@@ -10,7 +10,7 @@ Disclaimer this is TEST script, not tested thoroughly  and not meant for product
 
 
 sudo apt-get update && sudo apt-get upgrade 
-sudo apt-get update 
+
 
 curl --output setup-bdc.sh https://raw.githubusercontent.com/microsoft/sql-server-samples/master/samples/features/sql-big-data-cluster/deployment/kubeadm/ubuntu-single-node-vm/setup-bdc.sh
 
@@ -21,3 +21,4 @@ sudo ./setup-bdc.sh
 source ~/.bashrc
 
 azdata --version
+
