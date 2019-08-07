@@ -246,7 +246,7 @@ kubectl taint nodes ${master_node} node-role.kubernetes.io/master:NoSchedule-
 
 # Local storage provisioning.
 #
-kubectl apply -f https://raw.githubusercontent.com/microsoft/sql-server-samples/master/samples/features/sql-big-data-cluster/deployment/kubeadm/ubuntu/local-storage-provisioner.yaml
+kubectl apply -f https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/local-storage-provisioner.yaml
 
 # Install the software defined network.
 #
