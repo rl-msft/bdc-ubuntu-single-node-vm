@@ -9,16 +9,12 @@ Disclaimer this is TEST script, not tested thoroughly  and not meant for product
 
 `sudo apt-get update && sudo apt-get upgrade `
 
-`curl --output setup-bdc.sh https://raw.githubusercontent.com/microsoft/sql-server-samples/master/samples/features/sql-big-data-cluster/deployment/kubeadm/ubuntu-single-node-vm/setup-bdc.sh
-`
+` curl --output setup-bdc.sh https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/setup-bdc.sh`
 
-`chmod +x setup-bdc.sh
-`
-`sudo ./setup-bdc.sh
-`
+`chmod +x setup-bdc.sh`
 
-`source ~/.bashrc
-`
+`sudo ./setup-bdc.sh`
 
-`azdata --version
-`
+`source ~/.bashrc`
+
+`azdata --version`
