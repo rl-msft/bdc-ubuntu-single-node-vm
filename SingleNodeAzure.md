@@ -10,7 +10,7 @@
     size to at least 300GB using azure  portal.  
  3. Start the VM, since we are using Ubuntu the new disk space  will be  
     available automatically for the OS disk.  
- 4. login with ssh, then issue the following commands (*those could take  
+ 4. login with ssh, then issue the following commands, one by one (*those could take  
     up 20 min to  complete*)  
    
     
