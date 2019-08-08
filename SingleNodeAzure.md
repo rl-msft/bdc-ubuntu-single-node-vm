@@ -3,8 +3,8 @@
   
   to **deploy** the cluster follow these instructions    
   
- 1. Create Ununtu Azure VM along with Windows Azure which will act as   
-    you client in same Vnet.  
+ 1. Create Ununtu Azure VM along with Windows Azure VM  in same Vne, Windows VM will act as    
+    your client to access the portals etc.
  2. after the deployment is completed, stop  the VM then increase the OS  
     size to at least 300GB using azure  portal.  
  3. Start the VM, since we are using Ubuntu the new disk space  will be  
