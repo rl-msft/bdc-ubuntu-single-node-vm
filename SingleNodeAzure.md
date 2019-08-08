@@ -1,5 +1,5 @@
 
-> Disclaimer this is **Experimental** deployment script, not to be used in **production** under any Circumstances
+> Disclaimer this is **Experimental** deployment script, not to be used in **production** under any circumstances
   
   to **deploy** the cluster follow these instructions    
   
