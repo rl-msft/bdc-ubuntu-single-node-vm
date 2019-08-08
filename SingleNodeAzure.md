@@ -10,7 +10,7 @@
  3. Start the VM, since we are using Ubuntu the new disk space  will be  
     available automatically for the OS disk.  
  4. login with ssh, then issue the following commands, one by one (*those could take  
-    up 20 min to  complete*)  
+    up to 20 min to  complete*)  
    
     
  ```shell script
