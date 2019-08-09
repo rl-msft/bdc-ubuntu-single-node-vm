@@ -7,9 +7,8 @@
     your client to access the portals etc.
  2. Once the VM deployment completed, stop  the VM then increase the OS Disk
     size to at least 300GB using azure  portal.  
- 3. Start the VM, since we are using Ubuntu the new disk space  will be available automatically for the OS disk.  
- 4. Login with ssh, then issue the following commands, one by one (*those could take  
-    up to 20 min to  complete*)  
+ 3. Start the VM, since we are using Ubuntu the new disk space will be available automatically for the OS disk.  
+ 4. Login with ssh, then issue the following commands, one by one (*those could take up to 20 min to complete*)  
    
     
  ```shell script
