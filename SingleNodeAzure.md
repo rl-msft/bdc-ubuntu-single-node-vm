@@ -5,7 +5,7 @@
   
  1. Create Ubuntu Azure VM along with Windows Azure VM  in the same Vnet, Windows VM will act as    
     your client to access the portals etc.
- 2. Once the VM deployment is completed, stop  the VM then increase the OS Disk
+ 2. Once the VM deployment completed, stop  the VM then increase the OS Disk
     size to at least 300GB using azure  portal.  
  3. Start the VM, since we are using Ubuntu the new disk space  will be  
     available automatically for the OS disk.  
