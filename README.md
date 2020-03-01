@@ -15,7 +15,7 @@
 
 Non-AD
     
- ```shell script
+```shell script
  sudo apt-get update 
  sudo apt-get upgrade 
  curl --output setup-bdc.sh https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/setup-bdc.sh 
@@ -27,10 +27,12 @@ Non-AD
 
 AD
  
-  ```shell script
+```shell script
  sudo apt-get update 
  sudo apt-get upgrade 
- curl --output setup-bdc.sh https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/setup-bdc-ad.sh 
+ curl --output setup-bdc.sh https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/setup-bdc-ad.sh
+ curl --output endpoint-patch.json https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/endpoint-patch.json
+ curl --output security-patch.json https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/security-patch.json
  chmod +x setup-bdc.sh 
  sudo ./setup-bdc.sh 
  source ~/.bashrc 
