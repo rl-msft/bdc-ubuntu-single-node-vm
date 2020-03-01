@@ -12,7 +12,8 @@
     size to at least 300GB using azure  portal.  
  3. Start the VM, since we are using Ubuntu the new disk space will be available automatically for the OS disk.  
  4. Login with ssh, then issue the following commands, one by one (*those could take up to 20 min to complete*)  
-   
+
+Non-AD
     
  ```shell script
  sudo apt-get update && sudo apt-get upgrade 
@@ -22,7 +23,17 @@
  source ~/.bashrc 
  azdata --version
 ```
+
+AD
  
+  ```shell script
+ sudo apt-get update && sudo apt-get upgrade 
+ curl --output setup-bdc.sh https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/setup-bdc-ad.sh 
+ chmod +x setup-bdc.sh 
+ sudo ./setup-bdc.sh 
+ source ~/.bashrc 
+ azdata --version
+```
  to **Clean up** the VM, run those commands    
     
  ```shell script
