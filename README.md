@@ -16,7 +16,8 @@
 Non-AD
     
  ```shell script
- sudo apt-get update && sudo apt-get upgrade 
+ sudo apt-get update 
+ sudo apt-get upgrade 
  curl --output setup-bdc.sh https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/setup-bdc.sh 
  chmod +x setup-bdc.sh 
  sudo ./setup-bdc.sh 
@@ -27,7 +28,8 @@ Non-AD
 AD
  
   ```shell script
- sudo apt-get update && sudo apt-get upgrade 
+ sudo apt-get update 
+ sudo apt-get upgrade 
  curl --output setup-bdc.sh https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/setup-bdc-ad.sh 
  chmod +x setup-bdc.sh 
  sudo ./setup-bdc.sh 
