@@ -1,4 +1,4 @@
-# Deploy bdc on Ubuntu single node using Azure VM 
+# Deploy bdc on Ubuntu 18.04 single node using Azure VM 
 
 
 
