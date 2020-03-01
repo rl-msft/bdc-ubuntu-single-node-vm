@@ -25,7 +25,7 @@ Non-AD
  azdata --version
 ```
 
-AD
+AD (edit endpoint and security json files to meet your requirements and AD objects)
  
 ```shell script
  sudo apt-get update 
