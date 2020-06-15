@@ -3,7 +3,7 @@
     {
       "op": "replace",
       "path": "spec.resources.master.spec.endpoints[0].dnsName",
-      "value": "mastersql-primary.rlazure.com"
+      "value": "mastersql-primary.contoso.com"
     },
     {
       "op": "replace",
