@@ -4,9 +4,9 @@
       "op": "replace",
       "path": "security.activeDirectory",
       "value": {
-        "ouDistinguishedName":"OU=bdc,DC=rlazure,DC=com",
+        "ouDistinguishedName":"OU=bdc,DC=contoso,DC=com",
         "dnsIpAddresses": ["193.168.1.200"],
-        "domainControllerFullyQualifiedDns": ["uaenorth200.rlazure.com"],
+        "domainControllerFullyQualifiedDns": ["dc1.contoso.com"],
         "domainDnsName":"rlazure.com",
         "clusterAdmins": [
           "bdcadmins"
@@ -19,12 +19,12 @@
     {
       "op": "replace",
       "path": "spec.endpoints[0].dnsName",
-      "value": "controller.rlazure.com"
+      "value": "controller.contoso.com"
     },
     {
       "op": "replace",
       "path": "spec.endpoints[1].dnsName",
-      "value": "serviceproxy.rlazure.com"
+      "value": "serviceproxy.contoso.com"
     }
   ]
 }
