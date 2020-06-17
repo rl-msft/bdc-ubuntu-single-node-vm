@@ -173,16 +173,6 @@ curl --output local-storage-provisioner.yaml https://raw.githubusercontent.com/r
 kubectl apply -f local-storage-provisioner.yaml
 
 
-#install azdata 
-echo "azdata"
-sudo apt-get update
-sudo apt-get install gnupg ca-certificates curl wget software-properties-common apt-transport-https lsb-release -y
-curl -sL https://packages.microsoft.com/keys/microsoft.asc |
-gpg --dearmor |
-sudo tee /etc/apt/trusted.gpg.d/microsoft.asc.gpg > /dev/null
-sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/16.04/mssql-server-2019.list)"
-
-
 echo "Done!!"
 echo ""
 echo ""
