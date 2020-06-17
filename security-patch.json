@@ -7,7 +7,7 @@
         "ouDistinguishedName":"OU=bdc,DC=contoso,DC=com",
         "dnsIpAddresses": ["193.168.1.200"],
         "domainControllerFullyQualifiedDns": ["dc1.contoso.com"],
-        "domainDnsName":"rlazure.com",
+        "domainDnsName":"contoso.com",
         "clusterAdmins": [
           "bdcadmins"
         ],
