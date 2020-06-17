@@ -182,10 +182,6 @@ gpg --dearmor |
 sudo tee /etc/apt/trusted.gpg.d/microsoft.asc.gpg > /dev/null
 sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/16.04/mssql-server-2019.list)"
 
-sudo apt-get update
-sudo apt-get install -y azdata-cli
-
-azdata --version
 
 echo "Done!!"
 echo ""
