@@ -38,6 +38,17 @@ AD (edit endpoint and security json files to meet your requirements and AD objec
  source ~/.bashrc 
  azdata --version
 ```
+
+to install only kubernetes cluster 
+
+```shell script
+ sudo apt-get update 
+ sudo apt-get upgrade 
+curl --output kubernetes.sh https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/kubernetes.sh
+chmod +x kubernetes.sh 
+sudo ./kubernetes.sh
+kubectl get pods -A
+```
  to **Clean up** the VM, run those commands    
     
  ```shell script
