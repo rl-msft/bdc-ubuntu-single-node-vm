@@ -46,7 +46,7 @@ RETRY_INTERVAL=5
 #
 export DOCKER_REGISTRY="mcr.microsoft.com"
 export DOCKER_REPOSITORY="mssql/bdc"
-export DOCKER_TAG="2019-CU2-ubuntu-16.04"
+export DOCKER_TAG="2019-CU4-ubuntu-16.04"
 
 # Variables used for azdata cluster creation.
 #
@@ -55,7 +55,7 @@ export AZDATA_PASSWORD=$password
 export ACCEPT_EULA=yes
 export CLUSTER_NAME=mssql-cluster
 export STORAGE_CLASS=local-storage
-export PV_COUNT="30"
+export PV_COUNT="50"
 
 IMAGES=(
 	mssql-app-service-proxy
