@@ -66,7 +66,7 @@ fi
 # Clean the mounted volumes.
 #
 
-for i in $(seq 1 30); do
+for i in $(seq 1 50); do
 
   vol="vol$i"
 
