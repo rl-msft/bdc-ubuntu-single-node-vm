@@ -332,7 +332,7 @@ echo "Starting to deploy azdata cluster..."
 
 # Command to create cluster for single node cluster.
 #
-azdata bdc config init --source kubeadm-dev-test --target kubeadm-custom -f
+azdata bdc config init --source kubeadm-prod --target kubeadm-custom -f
 azdata bdc config replace -c kubeadm-custom/control.json -j ".spec.docker.repository=$DOCKER_REPOSITORY"
 azdata bdc config replace -c kubeadm-custom/control.json -j ".spec.docker.registry=$DOCKER_REGISTRY"
 azdata bdc config replace -c kubeadm-custom/control.json -j ".spec.docker.imageTag=$DOCKER_TAG"
