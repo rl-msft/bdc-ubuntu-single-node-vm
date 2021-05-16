@@ -91,6 +91,7 @@ apt-get install -q -y kubelet=$KUBE_DPKG_VERSION kubeadm=$KUBE_DPKG_VERSION kube
 # Holding the version of kube packages.
 #
 apt-mark hold kubelet kubeadm kubectl
+export DESIRED_VERSION=v2.13.0
 curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get | bash
 
 . /etc/os-release
