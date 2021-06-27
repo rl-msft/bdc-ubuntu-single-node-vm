@@ -57,17 +57,21 @@ chmod +x cleanup-bdc.sh
 sudo ./cleanup-bdc.sh
 ````
 
-to Get all files run those commands
+to **Get all script files** run those commands
 ```shell script
+wget https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/setup-bdc.sh 
+wget https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/kubernetes.sh
 wget https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/remove-volumes.sh
 wget https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/remount-volumes.sh
 wget https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/refresh-volumes.sh
 wget https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/create-volumes.sh
 wget https://raw.githubusercontent.com/rl-msft/bdc-ubuntu-single-node-vm/master/cleanup-bdc.sh
-chmod +x cleanup-bdc.sh
+chmod +x setup-bdc.sh
+chmod +x kubernetes.sh 
 chmod +x refresh-volumes.sh
 chmod +x create-volumes.sh
 chmod +x remount-volumes.sh
 chmod +x remove-volumes.sh
+chmod +x cleanup-bdc.sh
 ````
 
