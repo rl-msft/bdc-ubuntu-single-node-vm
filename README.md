@@ -48,6 +48,7 @@ to install only kubernetes cluster
  chmod +x kubernetes.sh 
  sudo ./kubernetes.sh
  kubectl get pods -A
+ kubectl get pv | awk 'NR>1' | wc -l
 ```
  to **Clean up** the VM, run those commands    
     
